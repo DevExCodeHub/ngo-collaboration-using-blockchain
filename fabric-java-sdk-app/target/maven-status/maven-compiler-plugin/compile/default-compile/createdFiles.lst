@@ -1,0 +1,16 @@
+org/example/config/ConfigNetwork.class
+org/example/servlet/QueryAllPastNeedsServlet.class
+org/example/servlet/QueryNeedServlet.class
+org/example/user/RegisterEnrollUser.class
+org/example/user/CAEnrollment.class
+org/example/user/UserContext.class
+org/example/client/CAClient.class
+org/example/servlet/QueryAllNeedsServlet.class
+org/example/client/FabricClient.class
+org/example/servlet/CreateNeedServlet.class
+org/example/util/Util.class
+org/example/client/ChannelClient.class
+org/example/servlet/CreatePledgeServlet.class
+org/example/servlet/QueryPledgeServlet.class
+org/example/servlet/QueryAllPledgesForNeedServlet.class
+org/example/servlet/QueryAllActiveNeedsServlet.class

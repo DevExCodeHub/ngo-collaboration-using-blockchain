@@ -5,4 +5,4 @@
     path: target/ngo-collaboration-java.war
     buildpack: liberty-for-java
     env:
-      KUBERNETES_IP_ADDRESS: xxx.xxx.xx.xx
+      KUBERNETES_IP_ADDRESS: 169.48.171.142

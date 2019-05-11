@@ -1,0 +1,16 @@
+/home/osboxes/ngo-collaboration-using-blockchain/fabric-java-sdk-app/src/main/java/org/example/client/FabricClient.java
+/home/osboxes/ngo-collaboration-using-blockchain/fabric-java-sdk-app/src/main/java/org/example/servlet/CreatePledgeServlet.java
+/home/osboxes/ngo-collaboration-using-blockchain/fabric-java-sdk-app/src/main/java/org/example/config/ConfigNetwork.java
+/home/osboxes/ngo-collaboration-using-blockchain/fabric-java-sdk-app/src/main/java/org/example/servlet/QueryAllPastNeedsServlet.java
+/home/osboxes/ngo-collaboration-using-blockchain/fabric-java-sdk-app/src/main/java/org/example/util/Util.java
+/home/osboxes/ngo-collaboration-using-blockchain/fabric-java-sdk-app/src/main/java/org/example/client/CAClient.java
+/home/osboxes/ngo-collaboration-using-blockchain/fabric-java-sdk-app/src/main/java/org/example/servlet/QueryAllPledgesForNeedServlet.java
+/home/osboxes/ngo-collaboration-using-blockchain/fabric-java-sdk-app/src/main/java/org/example/client/ChannelClient.java
+/home/osboxes/ngo-collaboration-using-blockchain/fabric-java-sdk-app/src/main/java/org/example/servlet/QueryAllActiveNeedsServlet.java
+/home/osboxes/ngo-collaboration-using-blockchain/fabric-java-sdk-app/src/main/java/org/example/user/UserContext.java
+/home/osboxes/ngo-collaboration-using-blockchain/fabric-java-sdk-app/src/main/java/org/example/user/CAEnrollment.java
+/home/osboxes/ngo-collaboration-using-blockchain/fabric-java-sdk-app/src/main/java/org/example/servlet/QueryPledgeServlet.java
+/home/osboxes/ngo-collaboration-using-blockchain/fabric-java-sdk-app/src/main/java/org/example/servlet/CreateNeedServlet.java
+/home/osboxes/ngo-collaboration-using-blockchain/fabric-java-sdk-app/src/main/java/org/example/servlet/QueryAllNeedsServlet.java
+/home/osboxes/ngo-collaboration-using-blockchain/fabric-java-sdk-app/src/main/java/org/example/servlet/QueryNeedServlet.java
+/home/osboxes/ngo-collaboration-using-blockchain/fabric-java-sdk-app/src/main/java/org/example/user/RegisterEnrollUser.java
