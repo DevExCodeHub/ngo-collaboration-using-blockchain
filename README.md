@@ -1,4 +1,5 @@
-
+## APPLICATION WEB CLIENT URL: https://ngo-collaboration-webui-grouchy-sable.mybluemix.net/
+## JAVA FABRIC SDK URL: https://ngo-collaboration-java-app-humble-panda.mybluemix.net/
 # Non-Governmental Organizations(NGOs) collaboration using Blockchain - A Composite Pattern
 **Demonstrate the use of Hyperledger Fabric for building a collaboration platform for NGOs.**
 
