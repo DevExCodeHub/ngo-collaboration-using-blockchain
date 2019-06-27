@@ -1,5 +1,4 @@
-## APPLICATION WEB CLIENT URL: https://ngo-collaboration-webui-noisy-sable.mybluemix.net
-## JAVA FABRIC SDK URL: https://ngo-collaboration-java-app-cheerful-koala.mybluemix.net/
+
 # Non-Governmental Organizations(NGOs) collaboration using Blockchain - A Composite Pattern
 **Demonstrate the use of Hyperledger Fabric for building a collaboration platform for NGOs.**
 
@@ -35,7 +34,7 @@ When the reader has completed this Code Pattern, they will understand how to:
 # Pre-requisites
 
 * [IBM Cloud Account](https://cloud.ibm.com)
-* [Git Client](https://git-scm.com/downloads) - needed for clone commands.
+* [IBM Cloud CLI](https://github.com/IBM-Cloud/ibm-cloud-cli-release/releases/)
 * [Maven](https://maven.apache.org/install.html)
 * [Nodejs](https://nodejs.org/en/download/)
 
@@ -58,7 +57,9 @@ Follow these steps to setup and run this code pattern. The steps are described i
 
  - In this repository, 
     * [Network setup](https://github.com/IBM/ngo-collaboration-using-blockchain/tree/master/blockchain-network-on-kubernetes): configuration files and scripts to deploy Hyperledger Fabric network using Kubernetes on IBM Cloud.
+    
     * [Client code using Fabric Java SDK](https://github.com/IBM/ngo-collaboration-using-blockchain/tree/master/fabric-java-sdk-app): application code built using Fabric Java SDK to invoke and query chaincode on the hyperledger fabric network. The operations are exposed as ReST APIs when deployed enabling other applications to consume.
+    
     * [Web application code](https://github.com/IBM/ngo-collaboration-using-blockchain/tree/master/webapp): NodeJS based application code to render UI and integrates with the ReST APIs exposed by the client application built on Fabric Java SDK.
     
     
@@ -70,6 +71,8 @@ The scripts and configuration files to setup the network for this pattern can be
 
 * Create a [Kubernetes Service](https://cloud.ibm.com/kubernetes/catalog/cluster?bss_account=01fedb4f3ff70b186d83cdb1e1e0cbc8) instance using IBM Cloud dashboard.
 * Gain access of your Kubernetes cluster as explained in `step 3` in [repository](https://github.com/IBM/blockchain-network-on-kubernetes) and ensure you are able to run `kubectl` commands properly.
+
+
 * In case of IKS 1.11.x, modify the `blockchain-network-on-kubernetes/configFiles/peersDeployment.yaml` file to point to a Docker service. Change instances of `unix:///host/var/run/docker.sock` to `tcp://docker:2375` with a text editor or use the commands below.
    ```
    ## macOS
@@ -78,27 +81,14 @@ The scripts and configuration files to setup the network for this pattern can be
    ## Linux
    $ sed -i s#unix:///host/var/run/docker.sock#tcp://docker:2375# configFiles/peersDeployment.yaml
    ```
-  
-* Choose the appropriate script to setup the network as per your environment. For this, check your kubectl CLI version as:
 
-    ```
-    $ kubectl version --short
-    ```
-
-  This command will give you `Client Version` and `Server Version`. 
-  If the `Client version > v1.11.x` i.e. 1.12.x or more then use `setup_blockchainNetwork_v2.sh` to set up the network. Run 
-  the following command:
+* Run the following command:
 
     ```
     cd blockchain-network-on-kubernetes
     cp setup_blockchainNetwork_v2.sh setup_blockchainNetwork.sh
     ```
 
-  If the `Client version <= v1.11.x` then use `setup_blockchainNetwork_v1.sh` to setup the network. Copy the script as shown.
-    ```
-    cd blockchain-network-on-kubernetes
-    cp setup_blockchainNetwork_v1.sh setup_blockchainNetwork.sh
-    ```
 
 
 * Execute the following steps to setup the network.
