@@ -79,11 +79,13 @@ The scripts and configuration files to setup the network for this pattern can be
 * extract the zip file - kubeconfig.zip
 
 * In terminal mac os 
+
     ```
     export KUBECONFIG= /[path]/kube-config-[cluster name].yml
     
     ```
-In Windows os
+In CMD Windows os
+
     ```
     set KUBECONFIG= /[path]/kube-config-[cluster name].yml
     
