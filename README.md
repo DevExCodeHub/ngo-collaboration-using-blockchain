@@ -35,7 +35,7 @@ When the reader has completed this Code Pattern, they will understand how to:
 
 * [IBM Cloud Account](https://cloud.ibm.com)
 * [IBM Cloud CLI](https://github.com/IBM-Cloud/ibm-cloud-cli-release/releases/)
-* [Kubernetes CLI] (https://kubernetes.io/docs/tasks/tools/install-kubectl/)
+* [Kubernetes CLI](https://kubernetes.io/docs/tasks/tools/install-kubectl/)
 * [Maven](https://maven.apache.org/install.html)
 * [Nodejs](https://nodejs.org/en/download/)
 
