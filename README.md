@@ -53,7 +53,7 @@ Follow these steps to setup and run this code pattern. The steps are described i
 
 - Clone the repo using the below command.
    ```
-   git clone https://github.com/IBM/ngo-collaboration-using-blockchain
+   git clone https://github.com/DevExCodeHub/ngo-collaboration-using-blockchain
    ```
 
  - In this repository, 
