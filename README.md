@@ -35,6 +35,7 @@ When the reader has completed this Code Pattern, they will understand how to:
 
 * [IBM Cloud Account](https://cloud.ibm.com)
 * [IBM Cloud CLI](https://github.com/IBM-Cloud/ibm-cloud-cli-release/releases/)
+* [Kubernetes CLI] (https://kubernetes.io/docs/tasks/tools/install-kubectl/)
 * [Maven](https://maven.apache.org/install.html)
 * [Nodejs](https://nodejs.org/en/download/)
 
@@ -71,8 +72,18 @@ The scripts and configuration files to setup the network for this pattern can be
 
 * Create a [Kubernetes Service](https://cloud.ibm.com/kubernetes/catalog/cluster?bss_account=01fedb4f3ff70b186d83cdb1e1e0cbc8) instance using IBM Cloud dashboard.
 
-* Gain access of your Kubernetes cluster as explained in `step 3` in [repository](https://github.com/IBM/blockchain-network-on-kubernetes) and ensure you are able to run `kubectl` commands properly.
+* Gain access of your Kubernetes cluster 
+![](images/config.png)
+* extract the zip file - kubeconfig.zip
+* In terminal mac os 
+  ```
+    export KUBECONFIG= /[path]/kube-config-[cluster name].yml
+    ```
+In Windows os
 
+```
+    set KUBECONFIG= /[path]/kube-config-[cluster name].yml
+    ```
 * Run the following command:
 
     ```
