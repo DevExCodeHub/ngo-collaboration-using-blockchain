@@ -132,6 +132,7 @@ Next, on the command terminal go to `ngo-collaboration-using-blockchain` directo
 ```
 cd fabric-java-sdk-app
 mvn clean install
+ibmcloud target --cf
 ibmcloud cf push
 ```
 Login to `IBM Cloud`. On the `Dashboard`, verify that an app `ngo-collaboration-java-app` is running fine.
