@@ -78,6 +78,8 @@ The scripts and configuration files to setup the network for this pattern can be
 
 * extract the zip file - kubeconfig.zip
 
+![](images/kubeconfig.png)
+
 * In terminal mac os 
 
     ```
