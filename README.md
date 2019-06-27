@@ -83,7 +83,6 @@ The scripts and configuration files to setup the network for this pattern can be
     export KUBECONFIG= /[path]/kube-config-[cluster name].yml
     ```
 In Windows os
-
     ```
     set KUBECONFIG= /[path]/kube-config-[cluster name].yml
     ```
